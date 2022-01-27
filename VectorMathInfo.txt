@@ -1,0 +1,38 @@
+A and B are both Vectors with x,y,z (3D)
+
+Extend lenght of A * (real number) aka A(2,2,2) * 3 = (6,6,6)
+
+|A| = sqrt(a.x*a.x + a.y*a.y + a.z*a.z)
+
+A • B = |A||B|CosΘ
+
+or
+
+CosΘ = A•B / |A||B|
+
+CosΘ value can be converted to Angle/Radians using inverse cosine.
+
+Arccos table (or Inverse cosine)
+x		   arccos(x)
+		degrees	radians
+-1		180°	π
+-0.8660254	150°	5π/6
+-0.7071068	135°	3π/4
+-0.5		120°	2π/3
+0		90°	π/2
+0.5		60°	π/3
+0.7071068	45°	π/4
+0.8660254	30°	π/6
+1		0°	0
+
+Cosine table
+x(deg) 	x(rad) 	cos x
+180°	π	-1
+150°	5π/6	-√3/2
+135°	3π/4	-√2/2
+120°	2π/3	-1/2
+90°	π/2	0
+60°	π/3	1/2
+45°	π/4	√2/2
+30°	π/6	√3/2
+0°	0	1

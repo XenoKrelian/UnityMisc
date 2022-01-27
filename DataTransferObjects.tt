@@ -1,0 +1,23 @@
+﻿using System;
+using Tesla.Data;
+
+namespace Tesla.Model.DTO
+{
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.AccountCanBeControlledByAccountView)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.AccountProperty)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.SecurityRole)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.SecurityRoleTranslation)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.SecurityRoleRelAccountTranslation)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.UserProperty)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.SystemSetting)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.CalendarEntry)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.CalendarRecurrenceExceptionDate)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.CalendarReminder)) #>
+    <#= DataTransferObjectBuilder.CreateDataTransferObject(typeof(Tesla.Data.ModuleTranslation)) #>
+}
+
+<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="$(ProjectDir)..\Tesla.Data\bin\$(Configuration)\Tesla.Data.dll" #>
+<#@ assembly name="$(ProjectDir)..\Tesla.Utils\bin\$(Configuration)\Tesla.Utils.dll" #>
+<#@ import namespace="Tesla.Utils" #>
+<#@ output extension=".cs" #>
